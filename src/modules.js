@@ -29,8 +29,6 @@ function extractMetadata(data, file, rootUrl) {
   return {
     name: data.name,
     version: data.version,
-    description: data.description,
-    custom: data.custom,
     link: `${rootUrl}/files/${data.name}/${data.version}/${file}`,
   };
 }
